@@ -22,7 +22,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.commission-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 10px; */
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.commission-form label {
+  margin-bottom: 2px;
+}
+
+.commission-form input {
+  margin-bottom: 8px;
+  padding: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.commission-form button {
+  align-self: center;
+  padding: 6px 16px;
 }
